@@ -3,8 +3,8 @@
 '''
 Created on Aug. 2017
 Description：perceptron
-@author:
-@version:
+@author: Hui LIN
+@version: 2.3
 '''
 import sys
 import os
