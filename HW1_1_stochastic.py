@@ -3,8 +3,8 @@
 '''
 Created on Aug. 2017
 Description：perceptron
-@author:
-@version:
+@author: Hui LIN
+@version: 2.4
 '''
 import sys
 import os
@@ -71,7 +71,7 @@ if __name__ == '__main__':
     w = [0,0,0,0]
     b = 0
     model = perceptron_train(w,b,'perceptron.data',1000,200)
-    print ("--- %d maximum iterations ---" %(model[3]))
+    print ("---  iterations : ---" %(model[3]))
     print "w:", model[0]
     print "b:", model[1]
     print ("perceptron test error:%f" %(perceptron_test(model[0],model[1],'perceptron.data',1000,0)))
